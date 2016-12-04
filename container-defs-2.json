@@ -1,0 +1,21 @@
+{
+  "containerDefinitions": [
+    {
+      "volumesFrom": [],
+      "memory": 128,
+      "portMappings": [
+        {
+          "hostPort": 5000,
+          "containerPort": 5000,
+          "protocol": "tcp"
+        }
+      ],
+      "essential": true,
+      "mountPoints": [],
+      "name": "hello-world-container",
+      "environment": [],
+      "cpu": 0
+    }
+  ],
+  "volumes": []
+}
