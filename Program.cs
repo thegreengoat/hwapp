@@ -27,7 +27,7 @@ namespace ConsoleApplication
             app.Run(async (context) =>
             {
                 await context.Response.WriteAsync(
-                    "Hello from ASP.NET Core! Built by Jenkins on Amazon Linux!!");
+                    "Hello from ASP.NET Core!");
                                                                
             });
         }
