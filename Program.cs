@@ -27,7 +27,7 @@ namespace ConsoleApplication
             app.Run(async (context) =>
             {
                 await context.Response.WriteAsync(
-                    "Hello from ASP.NET Core!");
+                    "Hello from ASP.NET Core, running on " + System.Net.Dns.GetHostName());
                                                                
             });
         }
