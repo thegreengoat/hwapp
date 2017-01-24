@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 
-namespace ConsoleApplication
+namespace HelloWorld
 {
     public class Program
     {
@@ -26,9 +26,8 @@ namespace ConsoleApplication
         {            
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync(
-                    "Hello from ASP.NET Core! Running on host " + System.Net.Dns.GetHostName());
-                                                               
+                var a = new App(new DefaultRandomizer());
+                await context.Response.WriteAsync(a.getWelcomeMessage());
             });
         }
     }
