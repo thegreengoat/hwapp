@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assemblies>
+  <assembly name="hello-world.tests.dll" environment="64-bit .NET (unknown version) [collection-per-class, parallel (4 threads)]" test-framework="xUnit.net 2.1.0.3179" run-date="2017-01-26" run-time="22:06:49" total="2" passed="2" failed="0" skipped="0" time="0.201" errors="0">
+    <errors />
+    <collection total="2" passed="2" failed="0" skipped="0" name="Test collection for Tests.RandomizerTests" time="0.019">
+      <test name="Tests.RandomizerTests.TestRandomizer" type="Tests.RandomizerTests" method="TestRandomizer" time="0.011961" result="Pass" />
+      <test name="Tests.RandomizerTests.TestWelcomeMessage" type="Tests.RandomizerTests" method="TestWelcomeMessage" time="0.0073951" result="Pass" />
+    </collection>
+  </assembly>
+</assemblies>
